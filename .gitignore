@@ -1,0 +1,5 @@
+./saved_model.pth
+.venv/
+.env
+test/
+__pycache__/
