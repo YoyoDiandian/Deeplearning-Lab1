@@ -1,0 +1,33 @@
+Using device: cpu
+模型权重已加载: model_output/best_model2.pt
+Evaluating model...
+
+Evaluation Results:
+Accuracy: 0.6033
+Precision: 0.9969
+Recall: 1.0000
+F1-Score: 0.9984
+
+Example Predictions:
+
+Text: This is a great product!
+Predicted Class: 1
+Confidence: 0.9974
+Probabilities: [1.6023201e-04 9.9740666e-01 1.8177849e-03 1.9936159e-04 1.0628299e-04
+ 3.0962826e-04]
+
+Text: I did not like the service at all.
+Predicted Class: 3
+Confidence: 0.5788
+Probabilities: [0.08676189 0.2030707  0.10872705 0.5788078  0.01574844 0.00688421]
+
+Text: The food was delicious and the staff were friendly.
+Predicted Class: 1
+Confidence: 0.9942
+Probabilities: [1.3832860e-04 9.9415404e-01 5.0942395e-03 2.8245529e-04 9.3238341e-05
+ 2.3778724e-04]
+
+Text: I will never come back to this place again.
+Predicted Class: 0
+Confidence: 0.8965
+Probabilities: [0.8965042  0.01780757 0.00754229 0.06316152 0.0139906  0.00099382]

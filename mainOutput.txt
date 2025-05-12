@@ -1,0 +1,159 @@
+Using device: cpu
+Loading data...
+文件 training.csv 中的标签分布:
+唯一标签值: [0 1 2 3 4 5]
+标签计数: {np.int64(0): 4665, np.int64(1): 5362, np.int64(2): 1304, np.int64(3): 2159, np.int64(4): 1937, np.int64(5): 572}
+文件 validation.csv 中的标签分布:
+唯一标签值: [0 1 2 3 4 5]
+标签计数: {np.int64(0): 549, np.int64(1): 704, np.int64(2): 178, np.int64(3): 275, np.int64(4): 212, np.int64(5): 81}
+检测到的最大标签值: 5，设置num_labels=6
+Starting training...
+======== Epoch 1 / 4 ========
+Training...
+  Batch 40 of 1000. Elapsed: 0:00:53
+  Batch 80 of 1000. Elapsed: 0:01:42
+  Batch 120 of 1000. Elapsed: 0:02:30
+  Batch 160 of 1000. Elapsed: 0:03:19
+  Batch 200 of 1000. Elapsed: 0:04:08
+  Batch 240 of 1000. Elapsed: 0:04:58
+  Batch 280 of 1000. Elapsed: 0:05:47
+  Batch 320 of 1000. Elapsed: 0:06:36
+  Batch 360 of 1000. Elapsed: 0:07:25
+  Batch 400 of 1000. Elapsed: 0:08:14
+  Batch 440 of 1000. Elapsed: 0:09:06
+  Batch 480 of 1000. Elapsed: 0:09:54
+  Batch 520 of 1000. Elapsed: 0:10:44
+  Batch 560 of 1000. Elapsed: 0:11:32
+  Batch 600 of 1000. Elapsed: 0:12:20
+  Batch 640 of 1000. Elapsed: 0:13:09
+  Batch 680 of 1000. Elapsed: 0:13:58
+  Batch 720 of 1000. Elapsed: 0:14:47
+  Batch 760 of 1000. Elapsed: 0:15:35
+  Batch 800 of 1000. Elapsed: 0:16:23
+  Batch 840 of 1000. Elapsed: 0:17:10
+  Batch 880 of 1000. Elapsed: 0:17:59
+  Batch 920 of 1000. Elapsed: 0:18:49
+  Batch 960 of 1000. Elapsed: 0:19:39
+  Average training loss: 0.4824
+  Training epoch took: 0:20:26
+
+Running Validation...
+  Accuracy: 0.6083
+  Validation Loss: 0.1831
+  Precision: 0.9913
+  Recall: 0.9927
+  F1-Score: 0.9920
+  Validation took: 0:00:36
+  Best model saved at: model_output/best_model2.pt
+======== Epoch 2 / 4 ========
+Training...
+  Batch 40 of 1000. Elapsed: 0:00:49
+  Batch 80 of 1000. Elapsed: 0:01:37
+  Batch 120 of 1000. Elapsed: 0:02:26
+  Batch 160 of 1000. Elapsed: 0:03:15
+  Batch 200 of 1000. Elapsed: 0:04:03
+  Batch 240 of 1000. Elapsed: 0:04:52
+  Batch 280 of 1000. Elapsed: 0:05:42
+  Batch 320 of 1000. Elapsed: 0:06:30
+  Batch 360 of 1000. Elapsed: 0:07:18
+  Batch 400 of 1000. Elapsed: 0:08:05
+  Batch 440 of 1000. Elapsed: 0:08:53
+  Batch 480 of 1000. Elapsed: 0:09:42
+  Batch 520 of 1000. Elapsed: 0:10:30
+  Batch 560 of 1000. Elapsed: 0:11:17
+  Batch 600 of 1000. Elapsed: 0:12:03
+  Batch 640 of 1000. Elapsed: 0:12:51
+  Batch 680 of 1000. Elapsed: 0:13:39
+  Batch 720 of 1000. Elapsed: 0:14:28
+  Batch 760 of 1000. Elapsed: 0:15:18
+  Batch 800 of 1000. Elapsed: 0:16:05
+  Batch 840 of 1000. Elapsed: 0:16:52
+  Batch 880 of 1000. Elapsed: 0:17:44
+  Batch 920 of 1000. Elapsed: 0:18:36
+  Batch 960 of 1000. Elapsed: 0:19:24
+  Average training loss: 0.1530
+  Training epoch took: 0:20:12
+
+Running Validation...
+  Accuracy: 0.5938
+  Validation Loss: 0.1469
+  Precision: 0.9954
+  Recall: 0.9939
+  F1-Score: 0.9947
+  Validation took: 0:00:36
+  Best model saved at: model_output/best_model2.pt
+======== Epoch 3 / 4 ========
+Training...
+  Batch 40 of 1000. Elapsed: 0:00:49
+  Batch 80 of 1000. Elapsed: 0:01:38
+  Batch 120 of 1000. Elapsed: 0:02:26
+  Batch 160 of 1000. Elapsed: 0:03:14
+  Batch 200 of 1000. Elapsed: 0:04:02
+  Batch 240 of 1000. Elapsed: 0:04:50
+  Batch 280 of 1000. Elapsed: 0:05:38
+  Batch 320 of 1000. Elapsed: 0:06:28
+  Batch 360 of 1000. Elapsed: 0:07:17
+  Batch 400 of 1000. Elapsed: 0:08:05
+  Batch 440 of 1000. Elapsed: 0:08:53
+  Batch 480 of 1000. Elapsed: 0:09:41
+  Batch 520 of 1000. Elapsed: 0:10:29
+  Batch 560 of 1000. Elapsed: 0:11:17
+  Batch 600 of 1000. Elapsed: 0:12:06
+  Batch 640 of 1000. Elapsed: 0:12:55
+  Batch 680 of 1000. Elapsed: 0:13:45
+  Batch 720 of 1000. Elapsed: 0:14:34
+  Batch 760 of 1000. Elapsed: 0:15:23
+  Batch 800 of 1000. Elapsed: 0:16:12
+  Batch 840 of 1000. Elapsed: 0:17:00
+  Batch 880 of 1000. Elapsed: 0:17:48
+  Batch 920 of 1000. Elapsed: 0:18:37
+  Batch 960 of 1000. Elapsed: 0:19:26
+  Average training loss: 0.1019
+  Training epoch took: 0:20:15
+
+Running Validation...
+  Accuracy: 0.6083
+  Validation Loss: 0.1598
+  Precision: 0.9956
+  Recall: 0.9942
+  F1-Score: 0.9949
+  Validation took: 0:00:36
+======== Epoch 4 / 4 ========
+Training...
+  Batch 40 of 1000. Elapsed: 0:00:49
+  Batch 80 of 1000. Elapsed: 0:01:37
+  Batch 120 of 1000. Elapsed: 0:02:26
+  Batch 160 of 1000. Elapsed: 0:03:15
+  Batch 200 of 1000. Elapsed: 0:04:04
+  Batch 240 of 1000. Elapsed: 0:04:52
+  Batch 280 of 1000. Elapsed: 0:05:42
+  Batch 320 of 1000. Elapsed: 0:06:32
+  Batch 360 of 1000. Elapsed: 0:07:20
+  Batch 400 of 1000. Elapsed: 0:08:07
+  Batch 440 of 1000. Elapsed: 0:08:56
+  Batch 480 of 1000. Elapsed: 0:09:44
+  Batch 520 of 1000. Elapsed: 0:10:32
+  Batch 560 of 1000. Elapsed: 0:11:20
+  Batch 600 of 1000. Elapsed: 0:12:07
+  Batch 640 of 1000. Elapsed: 0:12:55
+  Batch 680 of 1000. Elapsed: 0:13:42
+  Batch 720 of 1000. Elapsed: 0:14:29
+  Batch 760 of 1000. Elapsed: 0:15:18
+  Batch 800 of 1000. Elapsed: 0:16:07
+  Batch 840 of 1000. Elapsed: 0:16:55
+  Batch 880 of 1000. Elapsed: 0:17:43
+  Batch 920 of 1000. Elapsed: 0:18:30
+  Batch 960 of 1000. Elapsed: 0:19:17
+  Average training loss: 0.0710
+  Training epoch took: 0:20:06
+
+Running Validation...
+  Accuracy: 0.5983
+  Validation Loss: 0.1808
+  Precision: 0.9955
+  Recall: 0.9941
+  F1-Score: 0.9948
+  Validation took: 0:00:36
+
+Training complete! Total training took 1:23:26
+Training completed with best validation loss: 0.1469
