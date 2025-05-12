@@ -2,7 +2,10 @@
 ## 5.11 36623b2bba90a1f475f7e0a1839b872c813d821f
 - 初始化一些文件
 
-## 5.12
+## 5.12 2ff5302ee4f01dc00e3a0ba083495f1d5cec0534
 - 添加了训练和测试文件`main.ipynb`
 - 模型输出在`model_output`
 - 添加测试集、训练集和验证集`test.csv`, `training.csv`, `validation.csv`
+
+## 5.13
+- 新的一版代码，准确率提到了86%，有输出图片和csv文件

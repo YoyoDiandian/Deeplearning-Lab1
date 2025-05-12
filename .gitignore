@@ -5,4 +5,5 @@ test/
 __pycache__/
 .DS_Store
 bert-base-uncased/
-model_output/
+best_model.pt
+tools/
