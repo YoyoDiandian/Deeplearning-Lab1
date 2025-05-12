@@ -1,9 +1,8 @@
-./saved_model.pth
 .venv/
 .env
 test/
 __pycache__/
 .DS_Store
-bert-base-uncased/
 best_model.pt
+best_model_acc.pt
 tools/
