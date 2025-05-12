@@ -7,5 +7,9 @@
 - 模型输出在`model_output`
 - 添加测试集、训练集和验证集`test.csv`, `training.csv`, `validation.csv`
 
-## 5.13
+## 5.12 d7859bffe31befbdf4774c0d125d2bf893b8fc92
 - 新的一版代码，准确率提到了86%，有输出图片和csv文件
+
+## 5.12
+- renew了main中的代码，发现之前把train.csv删了，后重新添加
+- 撰写了readme
